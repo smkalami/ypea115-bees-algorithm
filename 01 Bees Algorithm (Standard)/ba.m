@@ -143,6 +143,7 @@ end
 figure;
 %plot(BestCost, 'LineWidth', 2);
 semilogy(BestCost, 'LineWidth', 2);
+grid on;
 xlabel('Iteration');
 ylabel('Best Cost');
 
